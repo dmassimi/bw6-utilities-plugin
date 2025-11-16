@@ -79,6 +79,13 @@ mvn bw6-utilities:extractProperties \
     -DextractProperties.sourceFile=META-INF/default.substvar \
     -DextractProperties.outputFile=target/extracted-default.properties
 ```
+---
+
+## 👨‍💻 Eclipse integration
+
+You will find the Eclipse launcher to run maven goals in the `/src/main/resources/launchers` directory.
+
+A sample BW6 application (used for testing maven goals) has been added to `/src/main/resources/bw-project-test`.
 
 ---
 
@@ -89,3 +96,4 @@ The plugin is designed for use in projects leveraging TIBCO BusinessWorks config
 | Plugin Version | TIBCO BusinessWorks Compatibility | 
 | ----- | ----- | 
 | **1.0.0** | BWCE 2.9.2+ / BW6.12+ | 
+
